@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(187, 57, 187);
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 72px;
+    color: rgb(254, 148, 166);
+    text-shadow: purple;
+}
+
+.cake {
+    background-color: #ffdb58;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.candles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.candle {
+    width: 10px;
+    height: 80px;
+    background-color: #ff5733;
+    border-radius: 2px;
+    margin: 0 5px;
+}
+
+.icing {
+    background-color: #ff5733;
+    height: 20px;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+}
+
+.message {
+    font-size: 24px;
+    color: rgb(124, 0, 21);
+}
